@@ -1,0 +1,221 @@
+
+body{
+  font-family: 'Montserrat';
+}
+
+h1{
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-family: 'Montserrat';
+  color:white;
+  font-weight: 900;
+
+}
+
+h2{
+
+}
+
+.testimonial-text{
+  line-height: 1.5;
+  font-weight: 900;
+  color:white;
+  width:60%;
+  margin:0 auto 2rem auto;
+  padding-top: 5rem;
+  font-size: 3rem;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  background-color: #ff4c68;
+  padding-bottom: 7%;
+
+}
+
+#title{
+
+
+}
+
+#testimonials{
+  text-align: center;
+  background-color:#ff4c68;
+  padding-bottom: 3rem;
+  color:white;
+}
+/* Navigation-bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-link{
+  margin:0 18px;
+}
+
+.nav-item{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand{
+  font-family: 'ubuntu';
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+/* custom classes */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.ip-image{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.second-section{
+  text-align: center;
+  padding: 5% 10% 0;
+  margin-bottom: 10%;
+  position: relative;
+  background-color: white;
+}
+
+.second-section-heading{
+ font-family: 'Montserrat';
+ font-weight: 900;
+}
+
+.column-second-section{
+  padding: 0 18px;
+}
+
+.second-section-discription{
+   color: #8f8f8f;
+   margin: auto;
+}
+
+.second-section-symbol{
+  color: #ef8172;
+  margin: 5rem 0 2rem 0;
+}
+
+.second-section-symbol:hover{
+  color:#ff4c68;
+}
+
+.testimonial-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#press{
+  padding: 5% 7% 3%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.testimonial-press{
+  width: 15%;
+  margin: 0 50px 3%;
+}
+
+.pricing{
+  padding:50px 17% 5px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 0;
+  color:white
+}
+
+/* pricing */
+
+.bg-gradient {
+background: #C9D6FF;
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+ul li {
+  margin-bottom:1.4rem;
+}
+.pricing-divider {
+border-radius: 20px;
+background: #C64545;
+padding: 1em 0 4em;
+position: relative;
+}
+.blue .pricing-divider{
+background: #2D5772;
+}
+.green .pricing-divider {
+background: #1AA85C;
+}
+.red b {
+  color:#C64545
+}
+.blue b {
+  color:#2D5772
+}
+.green b {
+  color:#1AA85C
+}
+.pricing-divider-img {
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 80px;
+}
+.deco-layer {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+.btn-custom  {
+  background:#C64545; color:#fff; border-radius:20px
+}
+
+.img-float {
+  width:50px; position:absolute;top:-3.5rem;right:1rem
+}
+
+.princing-item {
+  transition: all 150ms ease-out;
+  margin-bottom: 5%;
+}
+.princing-item:hover {
+  transform: scale(1.05);
+}
+.princing-item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0);
+}
+.princing-item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
+}
+
+@media (max-width:1024px) {
+
+.ip-image{
+  position: static;
+  transform: rotate(0deg);
+  margin: auto;
+}
+.mobile{
+  text-align: center;
+}
+}
